@@ -1,21 +1,25 @@
-# Assignment 2: Advanced CSS (Flexbox & Grid)
+# Assignment #2 - Advanced CSS
 
-Student: Write your full name
-Group: Write your group
+Student: Dossymzhan Rashadinov
+Group: SE-2527
 
-## Description
-This project demonstrates advanced CSS layout techniques using Flexbox and CSS Grid, without floats or external frameworks.
+This project demonstrates advanced CSS layouts using Flexbox and CSS Grid.
 
-## Pages
-- `index.html` – Home page with the navigation bar (Task 0)
-- `task1.html` – Card row built with Flexbox (Task 1)
-- `task2.html` – Page layout with Grid areas: header, sidebar, main, footer (Task 2)
-- `task3.html` – Image gallery built with Grid and a hover caption overlay (Task 3)
-- `task4.html` – Portfolio page combining Flexbox and Grid (Task 4)
+## Tasks
 
-## How to run
-Open `index.html` in a browser, or publish the folder with GitHub Pages / Netlify.
+- Task 0: Navigation Bar
+- Task 1: Card Row
+- Task 2: Page Layout with Grid Areas
+- Task 3: Image Gallery
+- Task 4: Portfolio Page
 
 ## Technologies
-- HTML5
-- CSS3 (Flexbox, Grid)
+
+- HTML
+- CSS
+- Flexbox
+- CSS Grid
+
+## Website
+
+Published with GitHub Pages.

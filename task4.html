@@ -1,66 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Task 4 - Portfolio Page</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Atlas - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="portfolio-page">
-<header class="navbar">
-<div class="logo">MyPortfolio</div>
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="task1.html">Card Row</a></li>
-<li><a href="task2.html">Grid Layout</a></li>
-<li><a href="task3.html">Gallery</a></li>
-<li><a href="task4.html" class="active">Portfolio</a></li>
-</ul>
-</header>
-<section class="page-title">
-<h1>Task 4: Portfolio Page</h1>
-<p>Flexbox in the header, Grid for the main section, Flexbox inside each project card.</p>
-</section>
-<main class="portfolio-main">
-<div class="projects-area">
-<div class="project-card">
-<img src="https://picsum.photos/id/180/300/200" alt="Project 1">
-<div class="project-info">
-<h3>Weather App</h3>
-<p>A small web app that shows the current weather for any city.</p>
-<a href="#" class="btn">View Project</a>
-</div>
-</div>
-<div class="project-card">
-<img src="https://picsum.photos/id/201/300/200" alt="Project 2">
-<div class="project-info">
-<h3>Recipe Finder</h3>
-<p>A site that helps users search recipes based on ingredients they have.</p>
-<a href="#" class="btn">View Project</a>
-</div>
-</div>
-<div class="project-card">
-<img src="https://picsum.photos/id/225/300/200" alt="Project 3">
-<div class="project-info">
-<h3>Task Tracker</h3>
-<p>A simple board for organizing daily tasks and tracking progress.</p>
-<a href="#" class="btn">View Project</a>
-</div>
-</div>
-</div>
-<aside class="info-sidebar">
-<h3>About Me</h3>
-<p>I am a front-end student learning Flexbox and CSS Grid to build clean, responsive layouts.</p>
-<h3>Skills</h3>
-<p>HTML, CSS, Flexbox, Grid</p>
-<h3>Contact</h3>
-<p>student@example.com</p>
-</aside>
-</main>
-<footer class="portfolio-footer">
-<p>© 2026 MyPortfolio. All rights reserved.</p>
-</footer>
-</div>
+    <header class="navbar">
+        <a href="index.html" class="logo">URBAN ATLAS</a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="task2.html">City Layout</a></li>
+                <li><a href="task3.html">Gallery</a></li>
+                <li><a href="task4.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="portfolio-page">
+        <section class="portfolio-projects">
+            <div class="section-heading">
+                <p class="label">PART 3</p>
+                <h1>City Projects</h1>
+                <p>Task 4 · Flexbox and Grid combined in one portfolio page</p>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?auto=format&fit=crop&w=900&q=85" alt="London">
+                    <div class="project-content">
+                        <span class="card-number">01</span>
+                        <h2>London Nights</h2>
+                        <p>A city project focused on historic architecture and evening streets.</p>
+                        <a href="task3.html" class="button">View project</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=85" alt="Tokyo">
+                    <div class="project-content">
+                        <span class="card-number">02</span>
+                        <h2>Tokyo Lights</h2>
+                        <p>A visual project about bright streets, technology and urban life.</p>
+                        <a href="task3.html" class="button">View project</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=85" alt="Paris">
+                    <div class="project-content">
+                        <span class="card-number">03</span>
+                        <h2>Paris Style</h2>
+                        <p>A simple city presentation inspired by classic architecture and streets.</p>
+                        <a href="task3.html" class="button">View project</a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=900&q=85" alt="Dubai">
+                    <div class="project-content">
+                        <span class="card-number">04</span>
+                        <h2>Dubai Future</h2>
+                        <p>A modern city project showing skyscrapers, lights and new architecture.</p>
+                        <a href="task3.html" class="button">View project</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <aside class="portfolio-sidebar">
+            <p class="label">ABOUT THE PROJECT</p>
+            <h2>Urban Atlas</h2>
+            <p>This website presents beautiful city views and demonstrates basic advanced CSS layout techniques.</p>
+
+            <h3>Technologies</h3>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Flexbox</li>
+                <li>Grid</li>
+            </ul>
+
+            <a href="index.html" class="button button-light">Back home</a>
+        </aside>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Dossymzhan Rashadinov · SE-2527</p>
+    </footer>
 </body>
 </html>

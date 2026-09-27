@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Task 2 - Grid Layout</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urban Atlas - Grid Layout</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header class="navbar">
-<div class="logo">MyPortfolio</div>
-<ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li><a href="task1.html">Card Row</a></li>
-<li><a href="task2.html" class="active">Grid Layout</a></li>
-<li><a href="task3.html">Gallery</a></li>
-<li><a href="task4.html">Portfolio</a></li>
-</ul>
-</header>
-<section class="page-title">
-<h1>Task 2: Page Layout with Grid Areas</h1>
-<p>Header, sidebar, main content, and footer arranged with CSS Grid.</p>
-</section>
-<section class="layout-grid">
-<div class="layout-header">Site Header</div>
-<aside class="layout-sidebar">
-<h3>Menu</h3>
-<ul>
-<li>Dashboard</li>
-<li>Projects</li>
-<li>Messages</li>
-<li>Settings</li>
-</ul>
-</aside>
-<main class="layout-main">
-<h2>Main Content</h2>
-<p>This area holds the primary content of the page. It sits next to the sidebar and stretches across the remaining space in the grid.</p>
-</main>
-<footer class="layout-footer">Site Footer</footer>
-</section>
+    <div class="grid-page">
+        <header class="grid-header">
+            <div class="navbar">
+                <a href="index.html" class="logo">URBAN ATLAS</a>
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="task2.html">City Layout</a></li>
+                        <li><a href="task3.html">Gallery</a></li>
+                        <li><a href="task4.html">Portfolio</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="grid-sidebar">
+            <p class="label">CITY GUIDE</p>
+            <h2>Explore</h2>
+            <ul class="side-list">
+                <li><a href="task3.html">Europe</a></li>
+                <li><a href="task3.html">Asia</a></li>
+                <li><a href="task3.html">Middle East</a></li>
+                <li><a href="task3.html">North America</a></li>
+            </ul>
+        </aside>
+
+        <main class="grid-main">
+            <p class="label">TASK 2</p>
+            <h1>City Layout</h1>
+            <img class="main-image" src="https://images.unsplash.com/photo-1496588152823-86ff7695e68f?auto=format&fit=crop&w=1400&q=85" alt="City skyline beside water">
+            <div class="main-copy">
+                <span class="card-number">CITY / 04</span>
+                <h2>Architecture after dark</h2>
+                <p>Large cities change completely when the lights turn on. This page uses CSS Grid Areas to organize the header, sidebar, main content and footer.</p>
+                <a href="task3.html" class="button">Open gallery</a>
+            </div>
+        </main>
+
+        <footer class="grid-footer">
+            <p>© 2026 Urban Atlas</p>
+        </footer>
+    </div>
 </body>
 </html>
