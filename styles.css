@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
-    color: #eaf2ff;
+    color: #16233a;
     line-height: 1.6;
 }
 
@@ -16,8 +16,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 22px 6%;
-    background-color: #081b33;
-    border-bottom: 1px solid #183453;
+    background-color: #0b2a4a;
+    border-bottom: 1px solid #d9e3ee;
 }
 
 .logo {
@@ -35,13 +35,13 @@ body {
 }
 
 .nav-links a {
-    color: #aebed2;
+    color: #4a5a6a;
     text-decoration: none;
     font-size: 14px;
 }
 
 .nav-links a:hover {
-    color: #6ed8ff;
+    color: #9bdcff;
 }
 
 .hero {
@@ -69,7 +69,7 @@ body {
 
 .hero-text > p:not(.label) {
     max-width: 540px;
-    color: #aebed2;
+    color: #4a5a6a;
     margin-bottom: 28px;
 }
 
@@ -78,7 +78,7 @@ body {
     min-height: 480px;
     overflow: hidden;
     border-radius: 18px;
-    border: 1px solid #1d4568;
+    border: 1px solid #d0dce8;
 }
 
 .hero-image img {
@@ -88,7 +88,7 @@ body {
 }
 
 .label {
-    color: #65d4ff;
+    color: #0b5ea8;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -98,25 +98,25 @@ body {
     display: inline-block;
     align-self: flex-start;
     padding: 10px 19px;
-    background-color: #12395d;
+    background-color: #0b2a4a;
     color: #ffffff;
     text-decoration: none;
-    border: 1px solid #285a82;
+    border: 1px solid #164d7d;
     border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #1b587e;
+    background-color: #164d7d;
 }
 
 .button-light {
-    background-color: #65bddd;
-    color: #061426;
-    border-color: #65bddd;
+    background-color: #0b2a4a;
+    color: #ffffff;
+    border-color: #0b2a4a;
 }
 
 .button-light:hover {
-    background-color: #9ae5ff;
+    background-color: #164d7d;
 }
 
 .section {
@@ -135,7 +135,7 @@ body {
 }
 
 .section-heading p:last-child {
-    color: #8fa5bd;
+    color: #5a6878;
 }
 
 .card-container {
@@ -147,8 +147,8 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    background-color: #0b2039;
-    border: 1px solid #193b5b;
+    background-color: #ffffff;
+    border: 1px solid #d7e1eb;
     border-radius: 12px;
     overflow: hidden;
     transition: transform 0.2s, border-color 0.2s;
@@ -156,7 +156,7 @@ body {
 
 .city-card:hover {
     transform: translateY(-6px);
-    border-color: #5bc9ef;
+    border-color: #0b5ea8;
 }
 
 .city-card img {
@@ -173,7 +173,7 @@ body {
 }
 
 .card-number {
-    color: #65d4ff;
+    color: #0b5ea8;
     font-size: 12px;
     letter-spacing: 2px;
     font-weight: bold;
@@ -186,12 +186,12 @@ body {
 
 .card-content p {
     flex: 1;
-    color: #94a9bf;
+    color: #526174;
     margin-bottom: 20px;
 }
 
 .text-link {
-    color: #65d4ff;
+    color: #0b5ea8;
     text-decoration: none;
     font-weight: bold;
 }
@@ -203,10 +203,10 @@ body {
 .footer {
     margin-top: 30px;
     padding: 25px;
-    background-color: #04101f;
-    color: #7890a9;
+    background-color: #0b2a4a;
+    color: #dbe7f2;
     text-align: center;
-    border-top: 1px solid #183453;
+    border-top: 1px solid #d9e3ee;
 }
 
 .grid-page {
@@ -227,8 +227,8 @@ body {
 .grid-sidebar {
     grid-area: sidebar;
     padding: 40px 25px;
-    background-color: #071a30;
-    border-right: 1px solid #183453;
+    background-color: #f5f8fb;
+    border-right: 1px solid #d9e3ee;
 }
 
 .grid-sidebar h2 {
@@ -244,18 +244,18 @@ body {
 }
 
 .side-list a {
-    color: #9eb1c6;
+    color: #435466;
     text-decoration: none;
 }
 
 .side-list a:hover {
-    color: #65d4ff;
+    color: #0b5ea8;
 }
 
 .grid-main {
     grid-area: main;
     padding: 55px;
-    background-color: #061426;
+    background-color: #ffffff;
 }
 
 .grid-main h1 {
@@ -269,7 +269,7 @@ body {
     height: 360px;
     object-fit: cover;
     border-radius: 14px;
-    border: 1px solid #1d4568;
+    border: 1px solid #d0dce8;
 }
 
 .main-copy {
@@ -282,7 +282,7 @@ body {
 }
 
 .main-copy p {
-    color: #94a9bf;
+    color: #526174;
     margin-bottom: 20px;
 }
 
@@ -335,8 +335,8 @@ body {
 
 .overlay span {
     padding: 8px 14px;
-    border: 1px solid #65d4ff;
-    color: #65d4ff;
+    border: 1px solid #0b5ea8;
+    color: #0b5ea8;
     border-radius: 4px;
 }
 
@@ -366,8 +366,8 @@ body {
 .project-card {
     display: flex;
     flex-direction: column;
-    background-color: #0b2039;
-    border: 1px solid #193b5b;
+    background-color: #ffffff;
+    border: 1px solid #d7e1eb;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -391,14 +391,14 @@ body {
 
 .project-content p {
     flex: 1;
-    color: #94a9bf;
+    color: #526174;
     margin-bottom: 18px;
 }
 
 .portfolio-sidebar {
     padding: 27px;
-    background-color: #0a223d;
-    border: 1px solid #255070;
+    background-color: #f7fafc;
+    border: 1px solid #cbd9e6;
     border-radius: 10px;
 }
 
@@ -411,7 +411,7 @@ body {
 }
 
 .portfolio-sidebar p {
-    color: #a5b7ca;
+    color: #566577;
 }
 
 .skills-list {
@@ -421,8 +421,8 @@ body {
 
 .skills-list li {
     padding: 7px 0;
-    border-bottom: 1px solid #234563;
-    color: #c7d6e5;
+    border-bottom: 1px solid #d9e2eb;
+    color: #35475a;
 }
 
 @media (max-width: 850px) {
@@ -463,7 +463,7 @@ body {
 
     .grid-sidebar {
         border-right: 0;
-        border-bottom: 1px solid #183453;
+        border-bottom: 1px solid #d9e3ee;
     }
 
     .grid-main {
