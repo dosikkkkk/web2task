@@ -1,75 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Assignment 2 - Task 4</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 4 - Portfolio Page</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  <header>
-    <nav class="navbar">
-      <div class="logo">SE-2527</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Task 1</a></li>
-        <li><a href="task2.html">Task 2</a></li>
-        <li><a href="task3.html">Task 3</a></li>
-        <li><a href="task4.html">Task 4</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="container">
-    <h1 class="page-title">Task 4: Portfolio Page</h1>
-    <div class="portfolio-layout">
-      <section class="projects-grid">
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500" alt="Project 1">
-          <div class="card-content">
-            <h3>Algorithm Analysis</h3>
-            <p>Data Structures and Graph algorithms implementation project in Python.</p>
-            <a href="#" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500" alt="Project 2">
-          <div class="card-content">
-            <h3>Database System</h3>
-            <p>Relational database management application with SQLite integration.</p>
-            <a href="#" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500" alt="Project 3">
-          <div class="card-content">
-            <h3>Linear Programming</h3>
-            <p>Optimization solver for budget allocation and diet problem scenarios.</p>
-            <a href="#" class="btn">View Project</a>
-          </div>
-        </div>
-
-        <div class="card">
-          <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=500" alt="Project 4">
-          <div class="card-content">
-            <h3>Web Development</h3>
-            <p>Responsive multi-page website built with modern Flexbox and CSS Grid.</p>
-            <a href="#" class="btn">View Project</a>
-          </div>
-        </div>
-      </section>
-
-      <aside class="sidebar-box">
-        <h3>About Me</h3>
-        <p>Software Engineering student interested in web development, algorithms, and active sports.</p>
-      </aside>
-    </div>
-  </main>
-
-  <footer class="global-footer">
-    <p>Student: Dossymzhan Rashadinov | Group: SE-2527</p>
-  </footer>
-
+<div class="portfolio-page">
+<header class="navbar">
+<div class="logo">MyPortfolio</div>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="task1.html">Card Row</a></li>
+<li><a href="task2.html">Grid Layout</a></li>
+<li><a href="task3.html">Gallery</a></li>
+<li><a href="task4.html" class="active">Portfolio</a></li>
+</ul>
+</header>
+<section class="page-title">
+<h1>Task 4: Portfolio Page</h1>
+<p>Flexbox in the header, Grid for the main section, Flexbox inside each project card.</p>
+</section>
+<main class="portfolio-main">
+<div class="projects-area">
+<div class="project-card">
+<img src="https://picsum.photos/id/180/300/200" alt="Project 1">
+<div class="project-info">
+<h3>Weather App</h3>
+<p>A small web app that shows the current weather for any city.</p>
+<a href="#" class="btn">View Project</a>
+</div>
+</div>
+<div class="project-card">
+<img src="https://picsum.photos/id/201/300/200" alt="Project 2">
+<div class="project-info">
+<h3>Recipe Finder</h3>
+<p>A site that helps users search recipes based on ingredients they have.</p>
+<a href="#" class="btn">View Project</a>
+</div>
+</div>
+<div class="project-card">
+<img src="https://picsum.photos/id/225/300/200" alt="Project 3">
+<div class="project-info">
+<h3>Task Tracker</h3>
+<p>A simple board for organizing daily tasks and tracking progress.</p>
+<a href="#" class="btn">View Project</a>
+</div>
+</div>
+</div>
+<aside class="info-sidebar">
+<h3>About Me</h3>
+<p>I am a front-end student learning Flexbox and CSS Grid to build clean, responsive layouts.</p>
+<h3>Skills</h3>
+<p>HTML, CSS, Flexbox, Grid</p>
+<h3>Contact</h3>
+<p>student@example.com</p>
+</aside>
+</main>
+<footer class="portfolio-footer">
+<p>© 2026 MyPortfolio. All rights reserved.</p>
+</footer>
+</div>
 </body>
 </html>
